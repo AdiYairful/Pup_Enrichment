@@ -47,8 +47,6 @@ h6{
     position: relative;
     max-width: 30%;
     /*אפשר להתעסק פה עם הרוחב ולשים 100% ואז קצת מרג'ינים או משהו*/
-
-
     /*אפשר לסדר את הלוגו אם נותנים לו עוד קלאס במסך יותר גדול*/
     padding-top: 10px;
 }
@@ -174,6 +172,11 @@ h6{
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
+    .logo-img {
+        position: relative;
+        max-width: 15%;
+        padding-top: 10px;
+    }
 }
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {}
