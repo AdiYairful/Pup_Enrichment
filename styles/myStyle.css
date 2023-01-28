@@ -1,0 +1,182 @@
+/* גוף האתר - עיצוב שגלובאלי לכל הדפים באתר */
+body {
+    background-color: #FFFAE4;
+    font-family: 'Assistant', sans-serif;
+    overflow: hidden;
+}
+
+/*כותרות*/
+h1 {
+    font-weight: 700;
+    font-size: 350%;
+    /* text-shadow: 3px 3px 5px #888; */
+}
+
+h2 {
+    font-weight: 800;
+    font-size: 125%;
+
+}
+
+h6{
+    font-weight: 700;
+    font-size: 120%;
+    color: #FA882A;
+}
+
+/*תמונות*/
+.pup-img {
+    position: relative;
+    opacity: 50%;
+    margin-top: -200px;
+    margin-left: 100px;
+    max-width: 300px;
+    z-index: -1;
+}
+
+.print-img{
+    position: relative;
+    opacity: 25%;
+    margin-top: -440px;
+    max-width: 120px;
+    z-index: -1;
+
+}
+
+.logo-img {
+    position: relative;
+    max-width: 30%;
+    /*אפשר להתעסק פה עם הרוחב ולשים 100% ואז קצת מרג'ינים או משהו*/
+
+
+    /*אפשר לסדר את הלוגו אם נותנים לו עוד קלאס במסך יותר גדול*/
+    padding-top: 10px;
+}
+
+
+/*חלונית אודות*/
+.about-img{
+    position: relative;
+    max-width:100%;
+    max-height: 120px;
+    padding-bottom: 10%;
+    margin-bottom: 10%;
+}
+
+.about-text{
+    font-weight: 600;
+    font-size: 150%;
+}
+
+#adiImg.about-img{
+    top: 8%;
+    left: 0%;
+}
+
+#kimImg.about-img{
+    top: 2.2%;
+    left: 0%;
+   
+}
+
+#hitImg.about-img{
+    top: 5%;
+    left: -10%;
+}
+
+#centerImg.about-img{
+    top: 8%;
+    left: 10%;
+}
+
+
+
+/* כפתורים */
+/* כפתור ראשי בהתאמה אישית */
+.btn-bd-primary {
+    /*טקסט*/
+    color: #000;
+    text-align: center;
+    font-size: 275%;
+    font-weight: 700;
+    /*צורה*/
+    border-radius: 100px;
+    background-color: #FBB900;
+    width: 320px;
+    border: none;
+    box-shadow: 1px 1px 5px #888;
+    /*ריווח*/
+    margin-top: 20px;
+
+}
+
+.btn-bd-secondary {
+    /*טקסט*/
+    color: #000;
+    text-align: center;
+    font-size: 200%;
+    font-weight: 600;
+    /*צורה*/
+    border-radius: 100px;
+    background-color: #ffffff;
+    width: 220px;
+    /*קו מתאר*/
+    border-width: 2px;
+    border-color: #FBB900;
+    box-shadow: 1px 1px 5px #888;
+    /*ריווח*/
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+
+.btn-bd-about {
+    /*טקסט*/
+    color: #000;
+    text-align: center;
+    font-weight: 600;
+    /*צורה*/
+    border-radius: 24px;
+    background-color: #ffffff;
+    /*קו מתאר*/
+    border-width: 2px;
+    border-color: #FBB900;
+}
+
+.btn-bd-modal{
+    color: white;
+    background-color: #008285;
+}
+
+#aboutText{
+    font-size: 160%;
+}
+
+/* קלאס שנותן לשקופיות בקרוסלה את הגודל שלהן */
+.c-item {
+    max-width: 100%;
+    padding: 50px;
+}
+
+/* קלאס שמתאים את התמונות בקרוסלה לגודל של השקופית שלהן */
+.c-img {
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
