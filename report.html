@@ -24,15 +24,20 @@
 
     <!-- שורה 1 -->
     <!-- לוגו המורכז - רווח - כתפור חזור -->
-    <div class="row" style="height: 65px;">
-        <div class="col">
+    <div class="row" style="padding:1%;">
+        <div class="col col-4">
             <div class="container justify-content-start" style="padding-top: 15px;">
                 <a href="#" role="button" class="btn btn-secondary btn-bd-about" data-bs-toggle="modal"
                     data-bs-target="#aboutModal">אודות</a>
-                <a href="index.html" role="button" class="btn btn-secondary btn-bd-about">חזרה</a>
+                <a href="index.html" role="button" class="btn btn-secondary btn-bd-about" style="margin-left: 5%;">חזרה</a>
             </div>
         </div>
-        <div class="col" style="direction: rtl;">
+
+        <div class="col col-4 text-center">
+            <h1>מילוי דו"ח</h1>
+        </div>
+
+        <div class="col col-4" style="direction: rtl;">
             <div class="container">
                 <img src="images\main\logo.png" alt="לוגו המרכז הישראלי לכלבי נחייה" class="logo-img">
             </div>
@@ -40,34 +45,15 @@
     </div>
 
     <!-- שורה 2 -->
-    <!-- כותרת ראשית -->
-    <div class="row">
-        <div class="container text-center">
-            <div class="col">
-                <h1>מילוי דו"ח</h1>
-            </div>
-        </div>
-    </div>
-
-    <!-- שורה 3 -->
     <!-- כפתור מילוי דו"ח -->
     <div class="row">
-        <div class="col">
-            <div class="container text-center">
-                <a href="problems.html" role="button" class="btn btn-secondary btn-bd-secondary" style="width: 40%;">למילוי הדו"ח לחצו כאן</a>
-            </div>
-        </div>
-    </div>
-
-    <!-- שורה 4 -->
-    <!-- קרוסלת תמונות -->
-    <div class="row" >
-        <div class="col">
-            <div class="container">
+        <!-- הטור הזה מכיל את הקרוסלה וכל התוכן שלה -->
+        <div class="col col-9">
+            <div class="container" style="padding: 15%; margin-top: -15%;">
                 <!-- קרוסלה וכל התוכן שלה -->
                 <div id="reportCarousel" class="carousel slide" data-bs-ride="false">
                     <!-- הרכיב דאטה של הקרוסה במצב שקר כדי שהיא לא תזוז בעצמה -->
-    
+
                     <!--  הסמני מיקום של הקרוסלה -->
                     <div class="carousel-indicators">
                         <button type="button" data-bs-target="#reportCarousel" data-bs-slide-to="0" class="active"
@@ -77,7 +63,7 @@
                         <button type="button" data-bs-target="#reportCarousel" data-bs-slide-to="2"
                             aria-label="Slide 3"></button>
                     </div>
-    
+
                     <!-- התוכן של הקרוסלה -->
                     <div class="carousel-inner">
                         <!-- פריט קרוסלה 1 -->
@@ -111,7 +97,7 @@
                             </div>
                         </div>
                     </div>
-    
+
                     <!-- כפתורי דפדוף של הקרוסלה -->
                     <button class="carousel-control-next" type="button" data-bs-target="#reportCarousel"
                         data-bs-slide="prev">
@@ -119,18 +105,25 @@
                         <span class="visually-hidden">Next</span>
                     </button>
                     <!-- לשים לב! בגלל שזה הותאם מחדש לעברית אז הכתור נקסט טכנית שולח אחורה וההפך
-            בגלל זה הרכיב דאטה שלהם לא תואם לשם שלהם -->
+                    בגלל זה הרכיב דאטה שלהם לא תואם לשם שלהם -->
                     <button class="carousel-control-prev" type="button" data-bs-target="#reportCarousel"
                         data-bs-slide="next">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Previous</span>
                     </button>
-    
+
                 </div>
             </div>
+
         </div>
-    </div>
-    
+        <div class="col col-3 align-self-center">
+            <div class="container">
+                <a id="btnReport" href="https://drive.google.com/drive/folders/1-2v9SDPObCHPpLXBhyrcO-GmrZqJ2u3Y?usp=sharing"
+                target="_blank" role="button" class="btn btn-secondary btn-bd-about" >למילוי הדו"ח לחצו כאן</a>
+            </div>
+        </div>
+
+
     </div>
 
 

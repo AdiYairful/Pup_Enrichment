@@ -45,10 +45,9 @@ h6{
 
 .logo-img {
     position: relative;
-    max-width: 30%;
+    max-width: 35%;
     /*אפשר להתעסק פה עם הרוחב ולשים 100% ואז קצת מרג'ינים או משהו*/
     /*אפשר לסדר את הלוגו אם נותנים לו עוד קלאס במסך יותר גדול*/
-    padding-top: 10px;
 }
 
 
@@ -140,6 +139,14 @@ h6{
     border-color: #FBB900;
 }
 
+#btnReport{
+    font-size: 150%;
+    font-weight: 700;
+    padding: 16%;
+    margin-left: -50%;
+    margin-top: -50%;
+}
+
 .btn-bd-modal{
     color: white;
     background-color: #008285;
@@ -152,7 +159,6 @@ h6{
 /* קלאס שנותן לשקופיות בקרוסלה את הגודל שלהן */
 .c-item {
     max-width: 100%;
-    padding: 50px;
 }
 
 /* קלאס שמתאים את התמונות בקרוסלה לגודל של השקופית שלהן */
@@ -166,9 +172,35 @@ h6{
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+    .logo-img {
+        position: relative;
+        max-width: 35%;
+        padding-top: 8px;
+    }
+
+    .btn-bd-about{
+        margin-bottom: 20%;
+    }
 }
+
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {}
+@media only screen and (min-width: 600px) {
+
+
+    .logo-img {
+        max-width: 25%;
+        padding-top: 5px;
+    }
+
+    #row4{
+        margin-top: -4%;
+    }
+
+    #row5{
+        margin-top: -2%;
+    }
+
+}
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
