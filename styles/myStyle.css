@@ -5,6 +5,39 @@ body {
     overflow: hidden;
 }
 
+/*שורות בדף*/
+/*שורה 1*/
+#row1{
+    height: 8vh;
+}
+
+/*שורה 2*/
+#row2{
+    height: 10vh;
+}
+
+/*שורה 3*/
+#row3{
+    height: 8vh;
+}
+
+/*שורה 4*/
+#row4{
+    height: 18vh;
+}
+
+#row5{
+    height: 40vh;
+}
+
+#row6{
+    height: 10vh;
+}
+
+#row7{
+    height: 0vh;
+}
+
 /*כותרות*/
 h1 {
     font-weight: 700;
@@ -26,21 +59,20 @@ h6{
 
 /*תמונות*/
 .pup-img {
-    position: relative;
+    position: absolute;
     opacity: 50%;
-    margin-top: -200px;
-    margin-left: 100px;
-    max-width: 300px;
+    margin-top: -30vh;
+    margin-left: 15vw;
+    max-width: 40vw;
     z-index: -1;
 }
 
 .print-img{
-    position: relative;
-    opacity: 25%;
-    margin-top: -440px;
+    position: absolute;
+    opacity: 15%;
+    margin-top: -55vh;
     max-width: 120px;
     z-index: -1;
-
 }
 
 .logo-img {
@@ -122,8 +154,8 @@ h6{
     border-color: #FBB900;
     box-shadow: 1px 1px 5px #888;
     /*ריווח*/
-    margin-top: 40px;
-    margin-bottom: 15px;
+    /* margin-top: 40px;
+    margin-bottom: 15px; */
 }
 
 .btn-bd-about {
@@ -157,7 +189,7 @@ h6{
 }
 
 #aboutWindow{
-    height: auto;
+    height: 50vh;
 }
 
 /* קלאס שנותן לשקופיות בקרוסלה את הגודל שלהן */
