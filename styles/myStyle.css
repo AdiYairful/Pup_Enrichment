@@ -7,35 +7,36 @@ body {
 
 /*שורות בדף*/
 /*שורה 1*/
-#row1{
+#row1 {
     height: 8vh;
 }
 
 /*שורה 2*/
-#row2{
+#row2 {
     height: 10vh;
 }
 
 /*שורה 3*/
-#row3{
+#row3 {
     height: 8vh;
 }
 
 /*שורה 4*/
-#row4{
+#row4 {
     height: 18vh;
 }
 
-#row5{
+#row5 {
     height: 40vh;
 }
 
-#row6{
+#row6 {
     height: 10vh;
 }
 
-#row7{
+#row7 {
     height: 0vh;
+    overflow: hidden;
 }
 
 /*כותרות*/
@@ -51,7 +52,7 @@ h2 {
 
 }
 
-h6{
+h6 {
     font-weight: 700;
     font-size: 120%;
     color: #FA882A;
@@ -67,7 +68,7 @@ h6{
     z-index: -1;
 }
 
-.print-img{
+.print-img {
     position: absolute;
     opacity: 15%;
     margin-top: -55vh;
@@ -84,36 +85,35 @@ h6{
 
 
 /*חלונית אודות*/
-.about-img{
+.about-img {
     position: relative;
-    max-width:100%;
+    max-width: 36vw;
     max-height: 10vh;
-    padding-bottom: 10%;
-    margin-bottom: 10%;
+    padding-bottom: 2vh;
 }
 
-.about-text{
+.about-text {
     font-weight: 600;
     font-size: 2.5vh;
 }
 
-#adiImg.about-img{
+#adiImg.about-img {
     top: 8%;
     left: 0%;
 }
 
-#kimImg.about-img{
+#kimImg.about-img {
     top: 2.2%;
     left: 0%;
-   
+
 }
 
-#hitImg.about-img{
+#hitImg.about-img {
     top: 5%;
     left: -10%;
 }
 
-#centerImg.about-img{
+#centerImg.about-img {
     top: 8%;
     left: 10%;
 }
@@ -171,7 +171,7 @@ h6{
     border-color: #FBB900;
 }
 
-#btnReport{
+#btnReport {
     font-size: 150%;
     font-weight: 700;
     padding: 16%;
@@ -179,17 +179,22 @@ h6{
     margin-top: -50%;
 }
 
-.btn-bd-modal{
+.btn-bd-modal {
     color: white;
     background-color: #008285;
 }
 
-#aboutText{
+#aboutText {
     font-size: 160%;
 }
 
-#aboutWindow{
-    height: 50vh;
+#aboutWindow {
+    height: 55vh;
+}
+
+#aboutModal {
+    max-width: 96vw;
+    padding-right: 3vw;
 }
 
 /* קלאס שנותן לשקופיות בקרוסלה את הגודל שלהן */
@@ -225,79 +230,79 @@ h6{
 
 /*נקודות שבירה*/
 /*טלפון נייד במצב מאונך*/
-@media only screen and (max-width: 480px){
-    h1{
+@media only screen and (max-width: 480px) {
+    h1 {
         color: purple;
     }
 
-    .btn-bd-secondary{
+    .btn-bd-secondary {
         width: 60vw;
     }
 }
 
 /*טלפון נייד במצב מאוזן*/
-@media only screen and (min-width: 480px) and (max-height: 480px){
-    h1{
+@media only screen and (min-width: 480px) and (max-height: 480px) {
+    h1 {
         color: red;
     }
-    
-    .logo-img{
+
+    .logo-img {
         height: 10vw;
     }
 
-    .btn-bd-secondary{
+    .btn-bd-secondary {
         width: 25vw;
     }
 
-    .btn-bd-about{
+    .btn-bd-about {
         position: relative;
     }
 
-    #row2{
+    #row2 {
         margin-top: -7%;
     }
 
-    #row4{
+    #row4 {
         margin-top: -4%;
     }
 
-    #row5{
+    #row5 {
         margin-top: -2%;
     }
 
-    .about-img{
+    .about-img {
         max-height: 20vh;
     }
 
-    #aboutText{
+    #aboutText {
         font-size: 5vh;
     }
 
-    #aboutModalLabel{
+    #aboutModalLabel {
         font-size: 10vh;
     }
 
-    #aboutWindow{
+    #aboutWindow {
         height: 75vh;
     }
 
-    #kimImg.about-img{
+    #kimImg.about-img {
         top: 7%;
         left: 0%;
-       
+
     }
-    
-    #hitImg.about-img{
+
+    #hitImg.about-img {
         top: 5%;
         left: 15%;
     }
 
-    #centerImg.about-img{
+    #centerImg.about-img {
         top: 8%;
         left: 16%;
     }
 
-    .about-text{
+    .about-text {
         font-weight: 600;
         font-size: 3.5vh;
     }
@@ -305,19 +310,19 @@ h6{
 }
 
 /*טאבלט במצב מאונך*/
-@media only screen and (min-width: 480px) and (min-height: 480px){
-    h1{
+@media only screen and (min-width: 480px) and (min-height: 480px) {
+    h1 {
         color: blue;
     }
 
-    .logo-img{
+    .logo-img {
         height: 10vw;
     }
 }
 
 /*טאבלט במצב מאוזן*/
-@media only screen and (min-width: 1024px) and (max-height: 1024px){
-    h1{
+@media only screen and (min-width: 1024px) and (max-height: 1024px) {
+    h1 {
         color: green;
     }
 }
