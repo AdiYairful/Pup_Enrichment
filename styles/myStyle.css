@@ -45,9 +45,9 @@ h6{
 
 .logo-img {
     position: relative;
-    max-width: 35%;
-    /*אפשר להתעסק פה עם הרוחב ולשים 100% ואז קצת מרג'ינים או משהו*/
-    /*אפשר לסדר את הלוגו אם נותנים לו עוד קלאס במסך יותר גדול*/
+    /* max-width: 35%; */
+    padding-top: 8px;
+    height: 20vw;
 }
 
 
@@ -55,14 +55,14 @@ h6{
 .about-img{
     position: relative;
     max-width:100%;
-    max-height: 120px;
+    max-height: 10vh;
     padding-bottom: 10%;
     margin-bottom: 10%;
 }
 
 .about-text{
     font-weight: 600;
-    font-size: 150%;
+    font-size: 2.5vh;
 }
 
 #adiImg.about-img{
@@ -156,6 +156,10 @@ h6{
     font-size: 160%;
 }
 
+#aboutWindow{
+    height: auto;
+}
+
 /* קלאס שנותן לשקופיות בקרוסלה את הגודל שלהן */
 .c-item {
     max-width: 100%;
@@ -171,33 +175,50 @@ h6{
 
 
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-    .logo-img {
-        position: relative;
-        max-width: 35%;
-        padding-top: 8px;
-    }
-
-    .btn-bd-about{
-        margin-bottom: 20%;
-    }
-}
+@media only screen and (max-width: 600px) {}
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
 
 
-    .logo-img {
-        max-width: 25%;
-        padding-top: 5px;
+
+/*נקודות שבירה*/
+/*טלפון נייד במצב מאונך*/
+@media only screen and (max-width: 480px){
+    h1{
+        color: purple;
     }
 
     .btn-bd-secondary{
-        width: 200px;
+        width: 60vw;
+    }
+}
+
+/*טלפון נייד במצב מאוזן*/
+@media only screen and (min-width: 480px) and (max-height: 480px){
+    h1{
+        color: red;
+    }
+    
+    .logo-img{
+        height: 10vw;
+    }
+
+    .btn-bd-secondary{
+        width: 25vw;
     }
 
     .btn-bd-about{
-        position: absolute;
+        position: relative;
     }
 
     #row2{
@@ -212,20 +233,59 @@ h6{
         margin-top: -2%;
     }
 
+    .about-img{
+        max-height: 20vh;
+    }
+
+    #aboutText{
+        font-size: 5vh;
+    }
+
+    #aboutModalLabel{
+        font-size: 10vh;
+    }
+
+    #aboutWindow{
+        height: 75vh;
+    }
+
+    #kimImg.about-img{
+        top: 7%;
+        left: 0%;
+       
+    }
+    
+    #hitImg.about-img{
+        top: 5%;
+        left: 15%;
+    }
+
+    #centerImg.about-img{
+        top: 8%;
+        left: 16%;
+    }
+
+    .about-text{
+        font-weight: 600;
+        font-size: 3.5vh;
+    }
+
 }
 
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
+/*טאבלט במצב מאונך*/
+@media only screen and (min-width: 480px) and (min-height: 480px){
+    h1{
+        color: blue;
+    }
 
-}
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-    .logo-img {
-        position: relative;
-        max-width: 15%;
-        padding-top: 10px;
+    .logo-img{
+        height: 10vw;
     }
 }
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {}
+/*טאבלט במצב מאוזן*/
+@media only screen and (min-width: 1024px) and (max-height: 1024px){
+    h1{
+        color: green;
+    }
+}
