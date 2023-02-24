@@ -11,6 +11,8 @@ body {
 /*שורות בדף*/
 /*שורה 1*/
 #row1 {
+    padding-top: 2vh;
+    margin-bottom: 4vh;
     height: 8vh;
 }
 
@@ -42,6 +44,17 @@ body {
     overflow: hidden;
 }
 
+/*שורה ייחודית לדף בעיות נפוצות*/
+#rowP{
+    padding: 5vw;
+}
+
+/*שורה ייחודית לדף כניסה להכשרה*/
+#rowW{
+    height: 25vh;
+    align-items: baseline; 
+}
+
 /*כותרות*/
 h1 {
     font-weight: 700;
@@ -61,7 +74,26 @@ h6 {
     color: #FA882A;
 }
 
+.dQ {
+    font-weight: 600;
+}
+
+/*Carosella*/
+#carContainer {
+    padding: 4vw;
+    margin-top: 0vh;
+}
+
+/*קונטיינר לפריטים בדף כניסה להכשרה*/
+/* .weeksCon {
+   
+} */
+
 /*תמונות*/
+.weeks-img{
+    max-width: 22vw;
+}
+
 .pup-img {
     position: absolute;
     opacity: 50%;
@@ -153,9 +185,6 @@ h6 {
     border-width: 2px;
     border-color: #FBB900;
     box-shadow: 1px 1px 5px #888;
-    /*ריווח*/
-    /* margin-top: 40px;
-    margin-bottom: 15px; */
 }
 
 .btn-bd-about {
@@ -171,12 +200,29 @@ h6 {
     border-color: #FBB900;
 }
 
+.btn-bd-weeks{
+    /*טקסט*/
+    color: #000;
+    text-align: center;
+    font-size: 150%;
+    font-weight: 600;
+    /*צורה*/
+    border-radius: 100px;
+    background-color: #ffffff;
+    width: 28vw;
+    /*קו מתאר*/
+    border-width: 2px;
+    border-color: #FBB900;
+    box-shadow: 1px 1px 5px #888;
+    /*ריווח*/
+    margin: 1vh;
+}
+
 #btnReport {
     font-size: 150%;
     font-weight: 700;
-    padding: 16%;
-    margin-left: -50%;
-    margin-top: -50%;
+    padding: 6vw;
+    margin-left: 11vw;
 }
 
 .btn-bd-modal {
@@ -238,6 +284,7 @@ h6 {
     .btn-bd-secondary {
         width: 60vw;
     }
+
 }
 
 /*טלפון נייד במצב מאוזן*/
@@ -247,28 +294,77 @@ h6 {
     }
 
     .logo-img {
-        height: 10vw;
+        height: 14vw;
     }
 
     .btn-bd-secondary {
-        width: 25vw;
+        width: 28vw;
     }
 
     .btn-bd-about {
         position: relative;
+        margin-top: 4vh;
+        width: 12vw;
+        font-size: 120%;
+    }
+
+    #btnReport {
+        padding: 1vw;
+        margin-left: -8vw;
+        margin-top: 20vh;
+        width: 20vw;
+    }
+
+    .btn-bd-weeks{
+        /*טקסט*/
+        font-size: 175%;
+        /*צורה*/
+        width: 25vw;
+        /*קו מתאר*/
+        border-width: 2px;
+        /*ריווח*/
+        margin: 3vh;
+    }
+
+    /*Carosella*/
+    #carContainer {
+        padding: 10vw;
+        margin-top: -18vh;
+    }
+
+    #row1 {
+        margin-top: 0vh;
     }
 
     #row2 {
-        margin-top: -7%;
+        margin-top: -6vh;
+    }
+
+    #row3 {
+        margin-top: 8vh;
     }
 
     #row4 {
-        margin-top: -4%;
+        margin-top: 0vh;
     }
 
     #row5 {
-        margin-top: -2%;
+        margin-top: 18vh;
     }
+
+    #row6 {
+        margin-top: -18vh;
+    }
+
+    /*שורה ייחודית לדף בעיות נפוצות*/
+#rowP{
+    margin-top: 10vh;
+}
+
+/*שורה ייחודית לדף כניסה להכשרה*/
+#rowW{
+    height: 60vh;
+}
 
     .about-img {
         max-height: 20vh;
@@ -312,17 +408,216 @@ h6 {
 /*טאבלט במצב מאונך*/
 @media only screen and (min-width: 480px) and (min-height: 480px) {
     h1 {
-        color: blue;
+        color: purple;
+        font-size: 7vh;
     }
 
     .logo-img {
-        height: 10vw;
+        height: 16vw;
     }
+
+    .btn-bd-secondary {
+        width: 30vw;
+    }
+
+    .btn-bd-about {
+        position: relative;
+        width: 12vw;
+
+    }
+
+    #btnReport {
+        padding: 2vh;
+        margin-left: 16vw;
+        margin-top: 5vh;
+        width: 40vw;
+    }
+
+    .btn-bd-weeks{
+        /*טקסט*/
+        font-size: 225%;
+        /*צורה*/
+        width: 25vw;
+        /*קו מתאר*/
+        border-width: 4px;
+        /*ריווח*/
+        margin: 2vh;
+    }
+
+    /*Carosella*/
+    #carContainer {
+        padding: 0vw;
+        margin-top: -5vh;
+    }
+
+    #row1 {
+        margin-top: 0vh;
+    }
+
+    #row2 {
+        margin-top: -6vh;
+    }
+
+    #row3 {
+        margin-top: 1vh;
+    }
+
+    #row4 {
+        margin-top: 0vh;
+    }
+
+    #row5 {
+        margin-top: 0vh;
+    }
+
+    #row6 {
+        margin-top: 0vh;
+    }
+
+        /*שורה ייחודית לדף בעיות נפוצות*/
+#rowP{
+    margin-top: 0vh;
+    font-size: 150%;
 }
+/*שורה ייחודית לדף כניסה להכשרה*/
+#rowW{
+    height: 20vh;
+    align-items:last baseline;
+    padding-bottom: 30vh;
+}
+
+
+}
+
+
 
 /*טאבלט במצב מאוזן*/
 @media only screen and (min-width: 1024px) and (max-height: 1024px) {
     h1 {
-        color: green;
+        color: greenyellow;
+        font-size: 12vh;
     }
+
+    .logo-img {
+        height: 15vw;
+    }
+
+    .btn-bd-secondary {
+        width: 25vw;
+    }
+
+    .btn-bd-about {
+        position: relative;
+    }
+
+    #btnReport {
+        padding: 3vh;
+        margin-left: 0vw;
+        margin-top: 16vh;
+        width: 15vw;
+    }
+
+    /*Carosella*/
+    #carContainer {
+        padding: 5vw;
+        margin-top: -5vh;
+    }
+
+    #row1 {
+        margin-top: 0vh;
+    }
+
+    #row2 {
+        margin-top: -4vh;
+    }
+
+    #row3 {
+        margin-top: 5vh;
+    }
+
+    #row4 {
+        margin-top: 2vh;
+    }
+
+    #row5 {
+        margin-top: 5vh;
+    }
+
+    #row6 {
+        margin-top: -8vh;
+    }
+
+            /*שורה ייחודית לדף בעיות נפוצות*/
+#rowP{
+    margin-top: 2vh;
+    font-size: 150%;
 }
+
+/*שורה ייחודית לדף כניסה להכשרה*/
+#rowW{
+    height: 20vh;
+    align-items:last baseline;
+    padding-bottom: 25vh;
+}
+
+.weeks-img{
+    max-width: 15vw;
+}
+
+.btn-bd-weeks{
+    /*טקסט*/
+    font-size: 250%;
+    /*צורה*/
+    width: 18vw;
+    /*קו מתאר*/
+    border-width: 5px;
+    /*ריווח*/
+    margin: 2vh;
+}
+}
+
+/*דסקטופ במצב מאוזן*/
+/* @media only screen and (min-width: 1024px) and (min-height: 1024px) {
+    h1 {
+        color: palevioletred;
+        font-size: 12vh;
+    }
+
+    .logo-img {
+        height: 0vh;
+    }
+
+    .btn-bd-secondary {
+        width: 25vw;
+    }
+
+    .btn-bd-about {
+        position: relative;
+    }
+
+    #row1{
+        padding-bottom: 0vh;
+    }
+
+    #row2 {
+        margin-top: -4vh;
+    }
+    
+    #row3{
+        margin-top: 3vh;
+    }
+
+    #row4 {
+        margin-top: 2vh;
+    }
+
+    #row5 {
+        margin-top: 5vh;
+    }
+
+    #row6{
+        margin-top: 0vh;
+    }
+
+
+} */

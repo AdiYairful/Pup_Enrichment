@@ -24,20 +24,15 @@
 
     <!-- שורה 1 -->
     <!-- לוגו המורכז - רווח - כתפור חזור -->
-    <div class="row" style="padding:1%;">
-        <div class="col col-4">
-            <div class="container justify-content-start" style="padding-top: 15px;">
+    <div id="row1" class="row">
+        <div class="col">
+            <div class="container justify-content-start" style="padding-top: 2vh;">
                 <a href="#" role="button" class="btn btn-secondary btn-bd-about" data-bs-toggle="modal"
                     data-bs-target="#aboutModal">אודות</a>
-                <a href="index.html" role="button" class="btn btn-secondary btn-bd-about" style="margin-left: 5%;">חזרה</a>
+                <a href="index.html" role="button" class="btn btn-secondary btn-bd-about">חזרה</a>
             </div>
         </div>
-
-        <div class="col col-4 text-center">
-            <h1>מילוי דו"ח</h1>
-        </div>
-
-        <div class="col col-4" style="direction: rtl;">
+        <div class="col" style="direction: rtl;">
             <div class="container">
                 <img src="images\main\logo.png" alt="לוגו המרכז הישראלי לכלבי נחייה" class="logo-img">
             </div>
@@ -45,13 +40,33 @@
     </div>
 
     <!-- שורה 2 -->
+    <!-- כותרת ראשית -->
+    <div id="row2" class="row">
+        <div class="col">
+            <div id="test111" class="container text-center">
+                <h1>מילוי דו"ח</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- שורה 3 -->
+    <!-- תת-כותרת -->
+    <div id="row3" class="row" style="padding-bottom: 20px;">
+        <div class="col" style="direction: rtl;">
+            <div class="container text-center">
+                <h2>כיצד ממלאים את הדו"ח:</h2>
+            </div>
+        </div>
+    </div>
+
+    <!-- שורה 3 -->
     <!-- כפתור מילוי דו"ח -->
     <div class="row">
         <!-- הטור הזה מכיל את הקרוסלה וכל התוכן שלה -->
-        <div class="col col-9">
-            <div class="container" style="padding: 15%; margin-top: -15%;">
+        <div class="col col-12 col-sm-9 col-md-12 col-lg-9">
+            <div id="carContainer" class="container">
                 <!-- קרוסלה וכל התוכן שלה -->
-                <div id="reportCarousel" class="carousel slide" data-bs-ride="false">
+                <div id="reportCarousel" class="carousel slide carousel-dark" data-bs-ride="false">
                     <!-- הרכיב דאטה של הקרוסה במצב שקר כדי שהיא לא תזוז בעצמה -->
 
                     <!--  הסמני מיקום של הקרוסלה -->
@@ -62,6 +77,8 @@
                             aria-label="Slide 2"></button>
                         <button type="button" data-bs-target="#reportCarousel" data-bs-slide-to="2"
                             aria-label="Slide 3"></button>
+                            <button type="button" data-bs-target="#reportCarousel" data-bs-slide-to="3"
+                            aria-label="Slide 4"></button>
                     </div>
 
                     <!-- התוכן של הקרוסלה -->
@@ -69,32 +86,42 @@
                         <!-- פריט קרוסלה 1 -->
                         <div class="carousel-item c-item active">
                             <!-- תמונה -->
-                            <img src="images/carousel/Test1.png" class="d-block w-100 c-img" alt="Example1">
+                            <img src="images\carousel\Step1.jpg" class="d-block w-100 c-img" alt="Example1">
                             <!-- טקסט וכותרות -->
-                            <div class="carousel-caption d-none d-md-block">
+                            <!-- <div class="carousel-caption d-none d-md-block">
                                 <h5>First slide label</h5>
                                 <p>Some representative placeholder content for the first slide.</p>
-                            </div>
+                            </div> -->
                         </div>
                         <!-- פריט קרוסלה 2 -->
                         <div class="carousel-item c-item">
                             <!-- תמונה -->
-                            <img src="images/carousel/Test2.png" class="d-block w-100 c-img" alt="Example2">
+                            <img src="images\carousel\Step2.jpg" class="d-block w-100 c-img" alt="Example2">
                             <!-- טקסט וכותרות -->
-                            <div class="carousel-caption d-none d-md-block">
+                            <!-- <div class="carousel-caption d-none d-md-block">
                                 <h5>Second slide label</h5>
                                 <p>Some representative placeholder content for the Second slide.</p>
-                            </div>
+                            </div> -->
                         </div>
                         <!-- פריט קרוסלה 3 -->
                         <div class="carousel-item c-item">
                             <!-- תמונה -->
-                            <img src="images/carousel/Test3.png" class="d-block w-100 c-img" alt="Example3">
+                            <img src="images\carousel\Step3.jpg" class="d-block w-100 c-img" alt="Example3">
                             <!-- טקסט וכותרות -->
-                            <div class="carousel-caption d-none d-md-block">
+                            <!-- <div class="carousel-caption d-none d-md-block">
                                 <h5>Third slide label</h5>
                                 <p>Some representative placeholder content for the Third slide.</p>
-                            </div>
+                            </div> -->
+                        </div>
+                        <!-- פריט קרוסלה 4 -->
+                        <div class="carousel-item c-item">
+                            <!-- תמונה -->
+                            <img src="images\carousel\Step4.jpg" class="d-block w-100 c-img" alt="Example3">
+                            <!-- טקסט וכותרות -->
+                            <!-- <div class="carousel-caption d-none d-md-block">
+                                    <h5>Third slide label</h5>
+                                    <p>Some representative placeholder content for the Third slide.</p>
+                            </div> -->
                         </div>
                     </div>
 
@@ -116,16 +143,16 @@
             </div>
 
         </div>
-        <div class="col col-3 align-self-center">
+        <div class="col col-12 col-sm-3 col-md-12 col-lg-3">
             <div class="container">
-                <a id="btnReport" href="https://drive.google.com/drive/folders/1-2v9SDPObCHPpLXBhyrcO-GmrZqJ2u3Y?usp=sharing"
-                target="_blank" role="button" class="btn btn-secondary btn-bd-about" >למילוי הדו"ח לחצו כאן</a>
+                <a id="btnReport"
+                    href="https://drive.google.com/drive/folders/1-2v9SDPObCHPpLXBhyrcO-GmrZqJ2u3Y?usp=sharing"
+                    target="_blank" role="button" class="btn btn-secondary btn-bd-about">למילוי הדו"ח לחצו כאן</a>
             </div>
         </div>
 
-
+        <!-- col col-12 col-sm-4 col-md-12 col-lg-4 -->
     </div>
-
 
 
 

@@ -22,11 +22,14 @@
 
 <body>
 
+<!-- בדף הזה אנו מאפשרים גלילה באופן פרטני -->
+<body style="overflow: auto">
+
     <!-- שורה 1 -->
     <!-- לוגו המורכז - רווח - כתפור חזור -->
-    <div class="row" style="height: 65px;">
+    <div id="row1" class="row">
         <div class="col">
-            <div class="container justify-content-start" style="padding-top: 15px;">
+            <div class="container justify-content-start" style="padding-top: 2vh;">
                 <a href="#" role="button" class="btn btn-secondary btn-bd-about" data-bs-toggle="modal"
                     data-bs-target="#aboutModal">אודות</a>
                 <a href="index.html" role="button" class="btn btn-secondary btn-bd-about">חזרה</a>
@@ -39,13 +42,35 @@
         </div>
     </div>
 
-<!-- שורה 2 -->
-<!-- כותרת ראשית -->
-    <div class="row">
-        <div class="container text-center">
-            <div class="col">
+    <!-- שורה 2 -->
+    <!-- כותרת ראשית -->
+    <div id="row2" class="row">
+        <div class="col">
+            <div id="test111" class="container text-center">
                 <h1>מילון מונחים</h1>
             </div>
+        </div>
+    </div>
+
+    <!-- שורה 3 -->
+    <!-- מונחים ברשימה -->
+    <div id="rowP" class="row">
+        <div class="col" style="direction: rtl;">
+            <p class="dQ">תא פנימי</p>
+            <p>התא שבו הגורים שוהים בכל תקופת שהותם בגוריה. סידור התא מותאם להתקדמותם בגיל והוא באחריות צוות הגוריה.</p>
+
+            <p class="dQ">תא חיצוני</p>
+            <p>תא לעשיית צרכים בשלבים מתקדמים בחיי הגורים. סידור וניקיון התא באחריות צוות הגוריה.</p>
+
+            <p class="dQ">שער פנימי בתא הגורים</p>
+            <p>שער שמחולק לשניים ומשמש להעברת הגורים בין התא הפנימי לחיצוני. בלוח פירוט התא כתוב האם עליו להיות פתוח או סגור.</p>
+
+            <p class="dQ">לוח פירוט התא</p>
+            <p>לוח לבן בתא שעליו מפורט תכולתו ומצב סידורו, וכן סדר ההנקה במקרה של שגרים גדולים.</p>
+
+            <p class="dQ">חצר התא</p>
+            <p>לכל שני תאים יש חצר חיצונית המשמשת לעשיית צרכים לנקבה, והחל משבוע רביעי גם  לחשיפת גורים לפעילות ומתקנים. סה"כ 3 חצרות במתחם.</p>
+    
         </div>
     </div>
 
