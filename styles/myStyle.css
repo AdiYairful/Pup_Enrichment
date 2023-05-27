@@ -1,8 +1,15 @@
 /* גוף האתר - עיצוב שגלובאלי לכל הדפים באתר */
+html, body{
+    /* הגדרה שאמורה למנוע גלילה בדפדפנים בעייתיים */
+    overflow-x: hidden;
+}
+
 body {
-    background-color: #FFFAE4;
+    background-image: linear-gradient(#F5812A,  #FE852F);
     font-family: 'Assistant', sans-serif;
-    overflow: hidden;
+
+    /* overflow: hidden; */
+    position: relative;
 
     height: 100svh;
     width: 100%;
@@ -103,14 +110,16 @@ h6 {
     margin-left: 0vw;
     max-width: 40vw;
     z-index: -1;
+
+    border-radius: 50%;
 }
 
 .print-img {
     position: absolute;
-    opacity: 15%;
-    margin-top: -55vh;
-    max-width: 120px;
-    z-index: -1;
+    opacity: 100%;
+    margin-top: 0vh;
+    max-width: 100vw;
+    z-index: 0;
 }
 
 .logo-img {
@@ -158,16 +167,17 @@ h6 {
 /* כפתור ראשי בהתאמה אישית */
 .btn-bd-primary {
     /*טקסט*/
-    color: #000;
+    color: #ffffff;
     text-align: center;
     font-size: 275%;
     font-weight: 700;
     /*צורה*/
-    border-radius: 100px;
-    background-color: #FBB900;
-    width: 320px;
+    border-radius: 50%;
+    background-image: linear-gradient(to bottom right, #FE8F32,  #FAB527);
+    width: 220px;
+    height: 220px;
     border: none;
-    box-shadow: 1px 1px 5px #888;
+    box-shadow: 2px 2px 8px #565656;
     /*ריווח*/
     margin-top: 20px;
 
@@ -175,18 +185,18 @@ h6 {
 
 .btn-bd-secondary {
     /*טקסט*/
-    color: #000;
+    color: #FC6542;
     text-align: center;
     font-size: 200%;
     font-weight: 600;
     /*צורה*/
-    border-radius: 100px;
+    border-radius: 20px;
     background-color: #ffffff;
     width: 220px;
     /*קו מתאר*/
     border-width: 2px;
-    border-color: #FBB900;
-    box-shadow: 1px 1px 5px #888;
+    border: none;
+    box-shadow: 2px 2px 8px #565656;
 }
 
 .btn-bd-about {
