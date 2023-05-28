@@ -146,7 +146,7 @@ h3{
 
 #enterBtn {
     margin-top: 30svh;
-    margin-right: 0svh;
+    /* margin-right: 0svh; */
 }
 
 /* כפתור משני בהתאמה אישית */
@@ -245,7 +245,7 @@ h3{
     .btn-home-secondary {
         padding: 6px 0px 6px 0px;
         /*דינאמי*/
-        width: 20vw;
+        width: 18vw;
         margin: 0.5vw;
     }
 
