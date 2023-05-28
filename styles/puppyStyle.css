@@ -222,7 +222,7 @@ h3{
 
     #botPic{
         position: relative;
-        transform: translate(0%, 10%);
+        transform: translate(0%, 0%);
     }
 
     /* תמונה של הלוגו */
