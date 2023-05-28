@@ -127,7 +127,7 @@ h3{
     /*טקסט*/
     color: #ffffff;
     text-align: center;
-    font-size: 320%;
+    font-size: 300%;
     font-weight: 700;
     line-height: 1.1;
     /*צורה*/
@@ -237,7 +237,7 @@ h3{
     }
 
     #enterBtn {
-        margin-top: 10svh;
+        margin-top: 15svh;
         margin-left: 7vw;
     }
 
@@ -257,6 +257,11 @@ h3{
     /*הטור של הכפתורי משנה*/
     #col2 {
         margin-left: 0vw;
+    }
+
+    #btnCol{
+       margin-left:4vw;
+       margin-top: 5svh;
     }
 
 
