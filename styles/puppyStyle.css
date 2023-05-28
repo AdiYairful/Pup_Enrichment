@@ -49,7 +49,8 @@
 
 /* הטור הימני/עליון - כתום */
 #rightCol {
-    color: white;
+    /* color: white; */
+    /* background-image: linear-gradient(#F5812A,  #FE852F); */
     font-size: 120%;
     font-weight: 600;
     direction: rtl;
@@ -67,16 +68,16 @@ h1{
 
 /*גרפיקה של עיגול לרקע*/
 #circle {
-    position: fixed;
+    position: absolute;
     top: 0%;
-    left: 40%;
+    left: 30%;
     z-index: -1;
     background-image: linear-gradient(to right, #F5812A, #FCB228);
-    width: 60%;
+    width: 70%;
     border-radius: 100%;
 
     /*דינאמי*/
-    height: 30svh;
+    height: 35svh;
     display: auto;
 }
 
@@ -96,7 +97,7 @@ h3{
     font-weight: 700;
 
     /*דינאמי*/
-    padding-block: 30px;
+    padding-top: 20px;
 }
 
 /* כפתורים לדף בחירת שבוע*/
@@ -181,7 +182,7 @@ h3{
         display: none;
     }
 
-    #botPic{
+    #botPic {
         display: none;
     }
 
@@ -191,15 +192,15 @@ h3{
     #rightCol {
 
         /*דינאמי*/
-        height: 30svh;
+        height: 35svh;
     }
 
     /* הטור השמאלי/תחתון - לבן */
-#leftCol {
+    #leftCol {
 
-    /*דינאמי*/
-    height: 70svh;
-}
+        /*דינאמי*/
+        height: 65svh;
+    }
 
 }
 
