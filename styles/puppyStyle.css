@@ -127,14 +127,14 @@ h3{
     /*טקסט*/
     color: #ffffff;
     text-align: center;
-    font-size: 350%;
+    font-size: 320%;
     font-weight: 700;
     line-height: 1.1;
     /*צורה*/
     border-radius: 100%;
     background-image: linear-gradient(to bottom right, #FE8F32, #FAB527);
-    width: 220px;
-    height: 220px;
+    width: 180px;
+    height: 180px;
     border: none;
     box-shadow: 2px 2px 8px #8e3900;
     /*ריווח*/
