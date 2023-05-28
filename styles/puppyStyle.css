@@ -19,7 +19,7 @@
 
 /* תמונה צדדית - למצב מאוזן */
 #sidePic {
-    max-height: 100vh;
+    max-height: 100svh;
 }
 
 #botPic{
@@ -144,7 +144,7 @@ h3{
 }
 
 #enterBtn {
-    margin-top: 26svh;
+    margin-top: 30svh;
     margin-right: 0svh;
 }
 
@@ -237,14 +237,15 @@ h3{
 
     #enterBtn {
         margin-top: 10svh;
-        margin-left: 8.5vw;
+        margin-left: 7vw;
     }
 
     /* כפתור משני בהתאמה אישית */
     .btn-home-secondary {
+        padding: 6px 0px 6px 0px;
         /*דינאמי*/
-        width: 19vw;
-        margin: 1vw;
+        width: 20vw;
+        margin: 0.5vw;
     }
 
     /*הטור של הכפתורי משנה*/
