@@ -19,6 +19,7 @@
 
 /* תמונה צדדית - למצב מאוזן */
 #sidePic {
+    max-height: 100vh;
     max-height: 100svh;
 }
 
@@ -351,6 +352,7 @@ h3 {
 
     /* כפתור ראשי - יישור */
     #enterBtn {
+        margin-top: 20vh;
         margin-top: 20svh;
         margin-left: 35vw;
 
