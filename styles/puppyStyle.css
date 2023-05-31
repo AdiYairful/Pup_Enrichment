@@ -261,6 +261,7 @@ h3 {
     }
 
     #btnCol {
+        width: 100%;
         margin-left: 4vw;
         margin-top: 5svh;
     }
@@ -315,6 +316,10 @@ h3 {
     #enterBtn {
         margin-top: 42svh;
         /* margin-right: 0svh; */
+
+        width: 250px;
+        height: 250px;
+        font-size: 400%;
     }
 
     /* כפתורי משנה - יישור */
@@ -323,6 +328,8 @@ h3 {
         /*דינאמי*/
         width: 35vw;
         margin: 2vw;
+
+        font-size: 200%;
     }
 
 }
@@ -340,6 +347,31 @@ h3 {
 
     #circle {
         display: none;
+    }
+
+    /* כפתור ראשי - יישור */
+    #enterBtn {
+        margin-top: 20svh;
+        margin-left: 35vw;
+
+        width: 250px;
+        height: 250px;
+        font-size: 400%;
+    }
+
+    /* כפתורי משנה - יישור */
+    .btn-home-secondary {
+        /* padding: 6px 0px 6px 0px; */
+        /*דינאמי*/
+        width: 20vw;
+        margin: 2vw;
+
+        font-size: 200%;
+    }
+
+    #btnCol{
+        width: 50%;
+        transform: translate(85%, 0%);
     }
 
 }
