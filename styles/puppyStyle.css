@@ -222,8 +222,8 @@ h3 {
     }
 
     #botPic {
-        position: relative;
-        transform: translate(0%, 0%);
+        position: absolute;
+        transform: translate(0%, -5%);
     }
 
     /* תמונה של הלוגו */
@@ -293,7 +293,7 @@ h3 {
         padding: 5px;
 
         /*דינאמי*/
-        width: 15vw;
+        width: 18vw;
         margin: 10px;
     }
 
