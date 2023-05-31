@@ -193,6 +193,7 @@ h3 {
     #rightCol {
 
         /*דינאמי*/
+        height: 35vh;
         height: 35svh;
     }
 
@@ -200,6 +201,7 @@ h3 {
     #leftCol {
 
         /*דינאמי*/
+        height: 65vh;
         height: 65svh;
     }
 
@@ -283,6 +285,7 @@ h3 {
 
         /*דינאמי*/
         transform: translate(-80%, 0);
+        height: 100vh;
         height: 100svh;
     }
 
@@ -334,6 +337,47 @@ h3 {
         font-size: 200%;
     }
 
+   /*דף בחירת השבוע*/
+
+    /* הטור הימני/עליון - כתום */
+    #rightCol {
+        font-size: 250%;
+        /*דינאמי*/
+        height: 35vh;
+        height: 35svh;
+    }
+
+    /* הטור השמאלי/תחתון - לבן */
+    #leftCol {
+        /*דינאמי*/
+        height: 65vh;
+        height: 65svh;
+    }
+
+    /*כותרת*/
+h3 {
+    font-size: 250%;
+    /*דינאמי*/
+    padding-top: 50px;
+}
+
+/* כפתורים לדף בחירת שבוע*/
+.btn-week-secondary {
+    /*טקסט*/
+    font-size: 280%;
+    /*צורה*/
+    border-radius: 25px;
+    padding: 10px;
+    /*קו מתאר*/
+    border-width: 10px;
+    border: 3px solid #FD8231;
+    box-shadow: 3px 3px 4px #8e3900a3;
+
+    /*דינאמי*/
+    width: 32vw;
+    margin: 4vw;
+}
+    
 }
 
 /*טאבלט במצב מאוזן*/
