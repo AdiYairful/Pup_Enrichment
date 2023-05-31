@@ -376,5 +376,57 @@ h3 {
 
 }
 
+/*דסקטופ במצב מאונך*/
+@media only screen and (min-width: 1024px) and (min-height: 1024px) {
+
+    /* כפתור ראשי - יישור */
+    #enterBtn {
+        width: 400px;
+        height: 400px;
+        font-size: 650%;
+    }
+
+    /* כפתורי משנה - יישור */
+    .btn-home-secondary {
+        /*דינאמי*/
+        width: 35vw;
+        margin: 2vw;
+
+        font-size: 320%;
+    }
+}
+
 /*דסקטופ במצב מאוזן*/
-/* @media only screen and (min-width: 1024px) and (min-height: 1024px) {}
+@media only screen and (min-width: 1920px) and (max-height: 1920px) {
+
+    #topPic {
+        display: none;
+    }
+
+    #sidePic {
+        display: block
+    }
+
+    #circle {
+        display: none;
+    }
+
+    /* כפתור ראשי - יישור */
+    #enterBtn {
+        margin-top: 20svh;
+        margin-left: 35vw;
+    }
+
+    /* כפתורי משנה - יישור */
+    .btn-home-secondary {
+        /* padding: 6px 0px 6px 0px; */
+        /*דינאמי*/
+        width: 20vw;
+        margin: 2vw;
+    }
+
+    #btnCol{
+        width: 50%;
+        transform: translate(85%, 0%);
+    }
+}
