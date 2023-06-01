@@ -285,7 +285,7 @@ h3 {
 
     /* הטור הימני/עליון - כתום */
     #rightCol {
-
+        font-size: 100%;
         /*דינאמי*/
         transform: translate(141%, 0%);
         height: 100svh;
@@ -293,7 +293,6 @@ h3 {
 
     /* הטור השמאלי/תחתון - לבן */
     #leftCol {
-
         /*דינאמי*/
         transform: translate(-80%, 0%);
         height: 100vh;
