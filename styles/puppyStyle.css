@@ -25,6 +25,17 @@
 
 #botPic {
     max-width: 100%;
+
+    /* תכונות אחידות */
+    position: fixed;
+
+    /* תכונות ייחודיות */
+    left: -6.5%;
+    bottom: -5px;
+    transform: translate(-50%, 35%);
+    margin: -15px auto;
+    padding-bottom: 20px;
+
 }
 
 /* תמונה של הלוגו */
@@ -225,7 +236,7 @@ h3 {
 
     #botPic {
         position: absolute;
-        transform: translate(0%, -5%);
+        transform: translate(10%, 0%);
     }
 
     /* תמונה של הלוגו */
@@ -276,7 +287,7 @@ h3 {
     #rightCol {
 
         /*דינאמי*/
-        transform: translate(0%, 0%);
+        transform: translate(141%, 0%);
         height: 100svh;
     }
 
@@ -284,7 +295,7 @@ h3 {
     #leftCol {
 
         /*דינאמי*/
-        transform: translate(0%, 0%);
+        transform: translate(-80%, 0%);
         height: 100vh;
         height: 100svh;
     }
@@ -442,7 +453,7 @@ h3 {
         font-size: 320%;
     }
 
-     /*דף בחירת השבוע*/
+    /*דף בחירת השבוע*/
 
     /* הטור הימני/עליון - כתום */
     #rightCol {
