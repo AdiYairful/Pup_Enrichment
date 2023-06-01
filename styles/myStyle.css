@@ -2,6 +2,7 @@
 html, body{
     /* הגדרה שאמורה למנוע גלילה בדפדפנים בעייתיים */
     overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 body {
