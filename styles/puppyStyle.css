@@ -506,6 +506,12 @@ h3 {
         display: block
     }
 
+    #botPic{
+        display: block;
+        transform: translate(8%, 0%);
+
+    }
+
     #circle {
         display: none;
     }
@@ -528,4 +534,38 @@ h3 {
         width: 50%;
         transform: translate(85%, 0%);
     }
+
+        /*דף בחירת השבוע*/
+
+    /* הטור הימני/עליון - כתום */
+    #rightCol {
+        /*דינאמי*/
+        height: 90vh;
+        height: 100svh;
+        transform: translate(140%, 0%);
+
+    }
+
+    /* הטור השמאלי/תחתון - לבן */
+    #leftCol {
+        /*דינאמי*/
+        height: 90vh;
+        height: 100svh;
+        transform: translate(-75%, 0%);
+
+    }
+
+    /* כפתורים לדף בחירת שבוע*/
+    .btn-week-secondary {
+        /*צורה*/
+        border-radius: 30px;
+        padding: 10px;
+        /*קו מתאר*/
+        border: 4px solid #FD8231;
+
+        /*דינאמי*/
+        width: 20vw;
+        margin: 2.2vw;
+    }
+
 }
