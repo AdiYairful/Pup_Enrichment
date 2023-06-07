@@ -1,88 +1,189 @@
 <!DOCTYPE html>
 <html lang="en" class="" dir="rtl">
-  <head>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta charset="utf-8">
 
-    <title>שבוע 7</title>
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
 
-    <link type="text/css" rel="stylesheet" href="lib/icomoon.css">
-    <link type="text/css" rel="stylesheet" href="lib/main.bundle.css">
-    <script type="text/javascript" src="lib/player-0.0.11.min.js"></script>
-    <script type="text/javascript" src="lib/lzwcompress.js"></script>
+  <title>שבוע 1</title>
 
-    <!-- Resize Hack -->
-    <script type="text/javascript">
-      window.resizeTo(screen.width, screen.height);
-    </script>
-    
-    <!--[if lt IE 9]>
+  <link type="text/css" rel="stylesheet" href="lib/icomoon.css">
+  <link type="text/css" rel="stylesheet" href="lib/main.bundle.css">
+  <script type="text/javascript" src="lib/player-0.0.11.min.js"></script>
+  <script type="text/javascript" src="lib/lzwcompress.js"></script>
+
+  <!-- custom fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;600;700;800&display=swap"
+  rel="stylesheet">
+
+  <!-- Resize Hack -->
+  <script type="text/javascript">
+    window.resizeTo(screen.width, screen.height);
+  </script>
+
+  <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-  </head>
-  <body>
-    <style>
-      .brand--head, .brand--head *   { font-family: 'rubik' !important; }
-      .brand--body, .brand--body *   { font-family: 'rubik' !important; }
-      .brand--lhead, .brand--lhead * { font-family: 'rubik' !important; }
-      .brand--lbody, .brand--lbody * { font-family: 'rubik' !important; }
-      .brand--ui, .brand--ui *       { font-family: 'Inter' !important; }
+</head>
 
-      .brand--beforeHead:before { font-family: 'rubik' !important; }
-      .brand--afterHead:after { font-family: 'rubik' !important; }
+<body>
+  <style>
+    .brand--head,
+    .brand--head * {
+      font-family: 'rubik' !important;
+    }
 
-      .brand--background        { background-color: #ff631e !important; }
-      .brand--background-all *  { background-color: #ff631e !important; }
-      .brand--border            { border-color: #ff631e !important; }
-      .brand--color             { color: #ff631e !important; }
-      .brand--color-all *       { color: #ff631e !important; }
-      .brand--shadow            { box-shadow: 0 0 0 0.2rem #ff631e !important; }
-      .brand--shadow-all *      { box-shadow: 0 0 0 0.2rem #ff631e !important; }
-      .brand--fill              { fill: #ff631e !important; }
-      .brand--stroke            { stroke: #ff631e !important; }
+    .brand--body,
+    .brand--body * {
+      font-family: 'rubik' !important;
+    }
 
-      .brand--beforeBackground:before { background-color: #ff631e !important; }
-      .brand--beforeBorder:before     { border-color: #ff631e !important; }
-      .brand--beforeColor:before      { color: #ff631e !important; }
+    .brand--lhead,
+    .brand--lhead * {
+      font-family: 'rubik' !important;
+    }
 
-      .brand--afterBackground:after { background-color: #ff631e !important; }
-      .brand--afterBorder:after     { border-color: #ff631e !important; }
-      .brand--afterColor:after      { color: #ff631e !important; }
+    .brand--lbody,
+    .brand--lbody * {
+      font-family: 'rubik' !important;
+    }
 
-      /* should be applied to containers where links
+    .brand--ui,
+    .brand--ui * {
+      font-family: 'Inter' !important;
+    }
+
+    .brand--beforeHead:before {
+      font-family: 'rubik' !important;
+    }
+
+    .brand--afterHead:after {
+      font-family: 'rubik' !important;
+    }
+
+    .brand--background {
+      background-color: #ff631e !important;
+    }
+
+    .brand--background-all * {
+      background-color: #ff631e !important;
+    }
+
+    .brand--border {
+      border-color: #ff631e !important;
+    }
+
+    .brand--color {
+      color: #ff631e !important;
+    }
+
+    .brand--color-all * {
+      color: #ff631e !important;
+    }
+
+    .brand--shadow {
+      box-shadow: 0 0 0 0.2rem #ff631e !important;
+    }
+
+    .brand--shadow-all * {
+      box-shadow: 0 0 0 0.2rem #ff631e !important;
+    }
+
+    .brand--fill {
+      fill: #ff631e !important;
+    }
+
+    .brand--stroke {
+      stroke: #ff631e !important;
+    }
+
+    .brand--beforeBackground:before {
+      background-color: #ff631e !important;
+    }
+
+    .brand--beforeBorder:before {
+      border-color: #ff631e !important;
+    }
+
+    .brand--beforeColor:before {
+      color: #ff631e !important;
+    }
+
+    .brand--afterBackground:after {
+      background-color: #ff631e !important;
+    }
+
+    .brand--afterBorder:after {
+      border-color: #ff631e !important;
+    }
+
+    .brand--afterColor:after {
+      color: #ff631e !important;
+    }
+
+    /* should be applied to containers where links
          need to appear in brand color */
-      .brand--linkColor a { color: #ff631e !important; }
+    .brand--linkColor a {
+      color: #ff631e !important;
+    }
 
-      /* should be applied to containers where links
+    /* should be applied to containers where links
          need to change to brand color on hover */
-      .brand--linkColorHover a:hover { color: #ff631e !important; }
+    .brand--linkColorHover a:hover {
+      color: #ff631e !important;
+    }
 
-      /* should be applied to any single element that
+    /* should be applied to any single element that
          needs to change color on hover */
-      .brand--hoverColor:hover { color: #ff631e !important; }
+    .brand--hoverColor:hover {
+      color: #ff631e !important;
+    }
 
-      /* TODO: probably need a way to create a 5-10% darker/lighter color */
-      .brand--linkColor a:hover,
-      .button.brand--background:hover { opacity: .65 !important; }
+    /* TODO: probably need a way to create a 5-10% darker/lighter color */
+    .brand--linkColor a:hover,
+    .button.brand--background:hover {
+      opacity: .65 !important;
+    }
 
-      @media (min-width: 47.9375em) { /* 768px */
-        .brand--min768--background { background-color: #ff631e !important; }
-        .brand--min768--border     { border-color: #ff631e !important; }
-        .brand--min768--color      { color: #ff631e !important; }
+    @media (min-width: 47.9375em) {
+
+      /* 768px */
+      .brand--min768--background {
+        background-color: #ff631e !important;
       }
 
-      @media (max-width: 47.9375em) { /* 768px */
-        .brand--max768--background { background-color: #ff631e !important; }
-        .brand--max768--border     { border-color: #ff631e !important; }
-        .brand--max768--color      { color: #ff631e !important; }
+      .brand--min768--border {
+        border-color: #ff631e !important;
       }
 
-      :root{
-        --font-family-ui: 'Assistant' !important;
+      .brand--min768--color {
+        color: #ff631e !important;
       }
-      
-    </style>
+    }
+
+    @media (max-width: 47.9375em) {
+
+      /* 768px */
+      .brand--max768--background {
+        background-color: #ff631e !important;
+      }
+
+      .brand--max768--border {
+        border-color: #ff631e !important;
+      }
+
+      .brand--max768--color {
+        color: #ff631e !important;
+      }
+    }
+
+    :root {
+      --font-family-ui: 'Assistant', sans-serif !important;   
+     }
+    
+  </style>
+  
     <div id="app"></div>
     <script type="text/javascript">
   (function(root) {
