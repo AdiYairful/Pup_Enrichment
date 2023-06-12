@@ -190,7 +190,7 @@ h3 {
 /*כפתורי אודות וחזור לשני הדפים*/
 .btn-top {
     /*טקסט*/
-    color: black;
+    color: 'white';
     /*בדיקה אם התכונה הזו גורמת לבאג באייפון*/
     text-align: center;
     font-size: 110%;
