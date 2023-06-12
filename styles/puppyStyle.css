@@ -38,6 +38,10 @@
 
 }
 
+#row-2{
+    margin-top: 2vh;
+}
+
 /* תמונה של הלוגו */
 #logoPic {
     /* תכונות אחידות */
@@ -186,7 +190,8 @@ h3 {
 /*כפתורי אודות וחזור לשני הדפים*/
 .btn-top {
     /*טקסט*/
-    color: white;
+    color: black;
+    /*בדיקה אם התכונה הזו גורמת לבאג באייפון*/
     text-align: center;
     font-size: 110%;
     font-weight: 600;
@@ -256,6 +261,10 @@ h3 {
         transform: translate(10%, 0%);
     }
 
+    #row-2{
+        position: absolute;
+    }
+
     /* תמונה של הלוגו */
     #logoPic {
 
@@ -270,7 +279,7 @@ h3 {
 
     #enterBtn {
         margin-top: 4vh;
-        margin-top: 5svh;
+        margin-top: 2svh;
         margin-left: 7vw;
     }
 
