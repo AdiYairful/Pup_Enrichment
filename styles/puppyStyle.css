@@ -143,14 +143,14 @@ h3 {
     /*טקסט*/
     color: #ffffff;
     text-align: center;
-    font-size: 300%;
+    font-size: 280%;
     font-weight: 700;
     line-height: 1.1;
     /*צורה*/
     border-radius: 100%;
     background-image: linear-gradient(to bottom right, #FE8F32, #FAB527);
-    width: 180px;
-    height: 180px;
+    width: 170px;
+    height: 170px;
     border: none;
     box-shadow: 2px 2px 8px #8e3900;
     /*ריווח*/
@@ -161,9 +161,14 @@ h3 {
 }
 
 #enterBtn {
-    margin-top: 24vh;
-    margin-top: 25svh;
     /* margin-right: 0svh; */
+}
+
+#enterH1{
+    margin-top: 24vh;
+    margin-top: 20svh;
+    font-size: 250%;
+
 }
 
 /* כפתור משני בהתאמה אישית */
@@ -278,18 +283,24 @@ h3 {
     #logoPic {
 
         /* תכונות ייחודיות */
-        left: 61%;
+        left: 85.5%;
         top: 0%;
-        transform: translate(-95%, -5%);
+        transform: translate(0%, -5%);
         margin: 0px auto;
         padding: 5px;
         /*מיקום הריפוד משתנה בהתאם למיקום במסך*/
     }
 
     #enterBtn {
+        transform: translate(46%,0%);
+    }
+
+    #enterH1{
         margin-top: 4vh;
         margin-top: 2svh;
-        margin-left: 7vw;
+        transform: translate(17%,0%);
+        font-size: 220%;
+    
     }
 
     /* כפתור משני בהתאמה אישית */
@@ -312,8 +323,7 @@ h3 {
 
     #btnCol {
         width: 100%;
-        margin-left: 4vw;
-        margin-top: 5svh;
+        margin-left: 10.5vw;
     }
 
 
