@@ -165,8 +165,8 @@ h3 {
 }
 
 #enterH1{
-    margin-top: 24vh;
-    margin-top: 20svh;
+    margin-top: 23vh;
+    margin-top: 23svh;
     font-size: 250%;
 
 }
@@ -176,12 +176,12 @@ h3 {
     /*טקסט*/
     color: #FC6542;
     text-align: center;
-    font-size: 150%;
+    font-size: 120%;
     font-weight: 700;
     /*צורה*/
     border-radius: 15px;
     background-color: #ffffff;
-    padding: 10px;
+    padding: 6px;
     /*קו מתאר*/
     border-width: 2px;
     border: none;
@@ -189,7 +189,7 @@ h3 {
 
     /*דינאמי*/
     width: 40vw;
-    margin: 2vw;
+    margin: 1.5vw;
 }
 
 /*כפתורי אודות וחזור לשני הדפים*/
@@ -292,7 +292,7 @@ h3 {
     }
 
     #enterBtn {
-        transform: translate(46%,0%);
+        transform: translate(47%,0%);
     }
 
     #enterH1{
