@@ -364,8 +364,8 @@ h3 {
 
     /* כפתור ראשי - יישור */
     #enterBtn {
-        margin-top: 40vh;
-        margin-top: 40svh;
+        margin-top: 34vh;
+        margin-top: 35svh;
         /* margin-right: 0svh; */
 
         width: 250px;
@@ -392,10 +392,13 @@ h3 {
 
     /* הטור הימני/עליון - כתום */
     #rightCol {
-        font-size: 250%;
+        font-size: 200%;
         /*דינאמי*/
         height: 35vh;
         height: 35svh;
+        width: 100vw;
+        transform: translate(0%, 0%);
+
     }
 
     /* הטור השמאלי/תחתון - לבן */
@@ -403,6 +406,10 @@ h3 {
         /*דינאמי*/
         height: 65vh;
         height: 65svh;
+        width: 101vw;
+
+        transform: translate(-43%, 54%);
+
     }
 
     /*כותרת*/
@@ -452,8 +459,8 @@ h3 {
 
     /* כפתור ראשי - יישור */
     #enterBtn {
-        margin-top: 8vh;
-        margin-top: 10svh;
+        margin-top: 5vh;
+        margin-top: 5svh;
         margin-left: 40vw;
 
         width: 250px;
