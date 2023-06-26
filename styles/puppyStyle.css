@@ -483,6 +483,31 @@ h3 {
         transform: translate(90%, 0%);
     }
 
+
+        /*דף בחירת השבוע*/
+
+    /* הטור הימני/עליון - כתום */
+    #rightCol {
+        font-size: 200%;
+        /*דינאמי*/
+        height: 100vh;
+        height: 100svh;
+        width: 40vw;
+        transform: translate(65%, 0%);
+
+    }
+
+    /* הטור השמאלי/תחתון - לבן */
+    #leftCol {
+        /*דינאמי*/
+        height: 100vh;
+        height: 100svh;
+        width: 60vw;
+
+        transform: translate(0%, -100%);
+
+    }
+
 }
 
 /*דסקטופ במצב מאונך*/
