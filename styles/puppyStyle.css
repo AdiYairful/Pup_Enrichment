@@ -141,18 +141,18 @@ h3 {
 /* כפתור ראשי בהתאמה אישית */
 .btn-home-primary {
     /*טקסט*/
-    color: #ffffff;
+    color: #FC6542;
     text-align: center;
     font-size: 280%;
     font-weight: 700;
     line-height: 1.1;
     /*צורה*/
     border-radius: 100%;
-    background-image: linear-gradient(to bottom right, #FE8F32, #FAB527);
+    background-color: #FFFFFF;
     width: 170px;
     height: 170px;
     border: none;
-    box-shadow: 2px 2px 8px #8e3900;
+    box-shadow: 2px 2px 10px black;
     /*ריווח*/
     display: inline-flex;
     flex-direction: column;
@@ -161,7 +161,7 @@ h3 {
 }
 
 #enterBtn {
-    /* margin-right: 0svh; */
+    /* margin-top: -20px; */
 }
 
 #enterH1{
@@ -174,13 +174,13 @@ h3 {
 /* כפתור משני בהתאמה אישית */
 .btn-home-secondary {
     /*טקסט*/
-    color: #FC6542;
+    color: #FFFFFF;
     text-align: center;
     font-size: 120%;
     font-weight: 700;
     /*צורה*/
     border-radius: 15px;
-    background-color: #ffffff;
+    background-image: linear-gradient(to bottom right, #FE8F32, #FAB527);
     padding: 6px;
     /*קו מתאר*/
     border-width: 2px;
@@ -459,6 +459,11 @@ h3 {
         display: block
     }
 
+    #botPic {
+        display: block;
+        transform: translate(8.5%, 1%);
+    }
+
     #circle {
         display: none;
     }
@@ -503,7 +508,7 @@ h3 {
         height: 100vh;
         height: 100svh;
         width: 40vw;
-        transform: translate(65%, 0%);
+        transform: translate(73%, 0%);
 
     }
 
@@ -517,6 +522,15 @@ h3 {
         transform: translate(0%, -100%);
 
     }
+
+        /* כפתורים לדף בחירת שבוע*/
+        .btn-week-secondary {
+            /*טקסט*/
+            font-size: 250%;
+            /*דינאמי*/
+            width: 20vw;
+            margin: 2.5vw;
+        }
 
 }
 
