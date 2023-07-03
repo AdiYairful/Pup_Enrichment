@@ -360,7 +360,7 @@ h3 {
     }
 
     #circle {
-        display: block;
+        display: none;
     }
 
     #botPic {
@@ -420,7 +420,7 @@ h3 {
         width: 101vw;
 
         transform: translate(-43%, 54%);
-
+        z-index: 5;
     }
 
     /*כותרת*/
