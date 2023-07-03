@@ -40,6 +40,8 @@
 
 #row-2{
     margin-top: 2vh;
+    position: fixed;
+    top: 0%;
 }
 
 /* תמונה של הלוגו */
@@ -226,12 +228,6 @@ h3 {
         display: none;
     }
 
-    #row-2{
-        
-        position: fixed;
-        top: 0%;
-    }
-
     /*דף בחירת השבוע*/
 
     /* הטור הימני/עליון - כתום */
@@ -272,12 +268,6 @@ h3 {
     #botPic {
         position: absolute;
         transform: translate(10%, 0%);
-    }
-
-    #row-2{
-        
-        position: fixed;
-        top: 0%;
     }
 
     /* תמונה של הלוגו */
@@ -419,6 +409,7 @@ h3 {
         width: 100vw;
         transform: translate(0%, 0%);
 
+        padding-top: 5vh;
     }
 
     /* הטור השמאלי/תחתון - לבן */
