@@ -88,6 +88,7 @@ h1 {
     top: 0%;
     left: 30%;
     z-index: -1;
+    background-color: #FCB228;
     background-image: linear-gradient(to right, #F5812A, #FCB228);
     width: 70%;
     border-radius: 100%;
@@ -368,9 +369,14 @@ h3 {
         display: none;
     }
 
+    #circle {
+        display: block;
+    }
+
     #botPic {
         display: none;
     }
+
 
     /* כפתור ראשי - יישור */
     #enterBtn {
