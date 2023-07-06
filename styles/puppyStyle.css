@@ -404,8 +404,8 @@ h3 {
     #rightCol {
         font-size: 200%;
         /*דינאמי*/
-        height: 35vh;
-        height: 35svh;
+        min-height: 35vh;
+        min-height: 35svh;
         width: 100vw;
         transform: translate(0%, 0%);
 
@@ -415,8 +415,8 @@ h3 {
     /* הטור השמאלי/תחתון - לבן */
     #leftCol {
         /*דינאמי*/
-        height: 65vh;
-        height: 65svh;
+        min-height: 65vh;
+        min-height: 65svh;
         width: 101vw;
 
         transform: translate(-43%, 54%);
