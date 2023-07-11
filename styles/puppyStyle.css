@@ -419,7 +419,7 @@ h3 {
         min-height: 65svh; */
         width: 101vw;
 
-        transform: translate(-43%, 54%);
+        /* transform: translate(-43%, 54%); */
         z-index: 5;
     }
 
