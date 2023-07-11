@@ -415,8 +415,8 @@ h3 {
     /* הטור השמאלי/תחתון - לבן */
     #leftCol {
         /*דינאמי*/
-        min-height: 65vh;
-        min-height: 65svh;
+        /* min-height: 65vh;
+        min-height: 65svh; */
         width: 101vw;
 
         transform: translate(-43%, 54%);
