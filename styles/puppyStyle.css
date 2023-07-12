@@ -415,11 +415,10 @@ h3 {
     /* הטור השמאלי/תחתון - לבן */
     #leftCol {
         /*דינאמי*/
-        /* min-height: 65vh;
-        min-height: 65svh; */
+        min-height: 840px;
         width: 101vw;
 
-        /* transform: translate(-43%, 54%); */
+        transform: translate(-43%, 54%);
         z-index: 5;
     }
 
