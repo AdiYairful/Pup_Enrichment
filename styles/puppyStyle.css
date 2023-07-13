@@ -486,9 +486,8 @@ h3 {
     #enterH1{
         margin-left: 40vw;
 
-        margin-top: 0vh;
-        margin-top: 0svh;
-        font-size: 350%;
+        margin-top: -40px;
+        font-size: 340%;
     
     }
 
