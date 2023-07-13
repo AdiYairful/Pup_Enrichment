@@ -23,12 +23,18 @@ body {
     margin-top: 10px;
     width: 100px;
     height: 80px;
+
+    margin-right: 10px;
+
 }
 
 #centerImg{
     margin-top: 25px;
+    margin-bottom: 25px;
     width: 90px;
     height: 100px;
+
+    margin-right: 20px;
  
 }
 
