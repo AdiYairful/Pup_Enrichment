@@ -82,6 +82,7 @@
 h1 {
     color: white;
     font-size: 220%;
+    font-weight: 700;
 }
 
 /*גרפיקה של עיגול לרקע*/
@@ -270,28 +271,26 @@ h3 {
         transform: translate(10%, 0%);
     }
 
-    /* תמונה של הלוגו */
-    #logoPic {
-
-        /* תכונות ייחודיות */
-        left: 85.5%;
-        top: 0%;
-        transform: translate(0%, -5%);
-        margin: 0px auto;
-        padding: 5px;
-        /*מיקום הריפוד משתנה בהתאם למיקום במסך*/
-    }
-
     #enterBtn {
         transform: translate(47%,0%);
     }
 
     #enterH1{
-        margin-top: 4vh;
-        margin-top: 2svh;
-        transform: translate(17%,0%);
+        margin-top: -6%;
+        transform: translate(15%,0%);
         font-size: 220%;
     
+    }
+
+    .btn-home-primary {
+        /*טקסט*/
+        font-size: 250%;
+        font-weight: 700;
+        line-height: 1.1;
+        /*צורה*/
+        width: 150px;
+        height: 150px;
+
     }
 
     /* כפתור משני בהתאמה אישית */
@@ -314,7 +313,8 @@ h3 {
 
     #btnCol {
         width: 100%;
-        margin-left: 10.5vw;
+        margin-left: 10vw;
+        margin-top: 12px;
     }
 
 
