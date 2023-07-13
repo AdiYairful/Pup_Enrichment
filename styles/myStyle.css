@@ -19,10 +19,17 @@ body {
 }
 
 /*חלונית אודות*/
-.about-img {
-    width: 150px;
-    height: 150px;
-    padding-bottom: 2vh;
+#hitImg{
+    margin-top: 10px;
+    width: 100px;
+    height: 80px;
+}
+
+#centerImg{
+    margin-top: 25px;
+    width: 90px;
+    height: 100px;
+ 
 }
 
 .btn-bd-modal {
